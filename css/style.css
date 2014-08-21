@@ -1,0 +1,54 @@
+
+#title {
+
+	text-align: center;
+	font-weight: bold;
+	color: blue; 
+}
+
+#organs
+
+{ font-size: 150%; 
+
+	text-align: center;
+	color: green;
+
+}
+
+h3, h4
+{ font-weight: bold; font-size: 130%;
+	text-align: center;
+	color: blue; 
+}
+
+p {
+	text-align: center; 
+
+	font-family: comic; 
+
+	font-size: 110%;
+}
+	
+body {background-color: #ccffff;
+
+}
+.center
+{
+	text-align: center;
+}
+
+
+h2
+{
+	font-size: 14px;
+	line-height 
+}
+
+#title 
+p b {
+	background-color: blue 
+}
+
+
+
+
