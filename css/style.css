@@ -1,37 +1,63 @@
 
-#title {
-
+#title 
+{
+	font-size: 300%;
 	text-align: center;
 	font-weight: bold;
 	color: blue; 
+	background-color: #99FFcc;
+}
+
+
+#donorsposter
+{
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+
+blockquote:before 
+{
+  color: #ccc;
+  content: open-quote;
+  font-size: 5em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p 
+
+{
+  display: inline;
+}
+
+h1, h3, h4, h5
+{ 
+	font-weight: bold; 
+	font-size: 175%;
+	text-align: center;
+	color: blue;
+	background-color:#99ffcc; 
 }
 
 #organs
-
-{ font-size: 150%; 
-
+{
+	font-weight: bold; 
+	font-size: 250%;
 	text-align: center;
-	color: green;
-
+	color: black;
+	background-color:#99FFFF; 
 }
-
-h3, h4
-{ font-weight: bold; font-size: 130%;
-	text-align: center;
-	color: blue; 
-}
-
-p {
+p 
+{
 	text-align: center; 
-
 	font-family: comic; 
-
-	font-size: 110%;
+	font-size: 150%;
 }
 	
-body {background-color: #ccffff;
 
-}
+
 .center
 {
 	text-align: center;
@@ -44,11 +70,25 @@ h2
 	line-height 
 }
 
-#title 
-p b {
-	background-color: blue 
+
+body 
+{
+
+	background: url('clouds.jpg') no-repeat center center;
+	background-properties="fixed"; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 
+#NJSN
+{
 
+	width: 200px;
+	display: block;
+	margin: 0 auto;
 
+}
