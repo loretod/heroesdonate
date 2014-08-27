@@ -66,7 +66,9 @@ h1
     padding-top: 10px;
     width: 100%;
     font-size: 400%;
-}
+    clear: both;
+    text-align: center;
+} 
 
 body 
 {
@@ -125,17 +127,23 @@ body
     position: absolute;
 }
 
-#moreinfo p 
+#moreinfo 
 {
     text-align: center;
 }
 
 #howwork
 {
-    padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 footer p 
 {
     text-align: center;
+}
+
+.newsection
+{
+  display: block;
+  position: absolute;
 }
