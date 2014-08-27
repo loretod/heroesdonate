@@ -6,12 +6,17 @@
 	font-weight: bold;
 	color: blue; 
 	background-color: #99FFcc;
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    position: absolute;
 }
 
 
 #donorsposter
 {
-	width: 600px;
+	padding-top: 150px;
+    width: 500px;
 	display: block;
 	margin: 0 auto;
 }
@@ -26,21 +31,6 @@ blockquote:before
   vertical-align: -0.4em;
 }
 
-blockquote p 
-
-{
-  display: inline;
-}
-
-h1, h3, h4, h5
-{ 
-	font-weight: bold; 
-	font-size: 175%;
-	text-align: center;
-	color: blue;
-	background-color:#99ffcc; 
-}
-
 #organs
 {
 	font-weight: bold; 
@@ -49,15 +39,13 @@ h1, h3, h4, h5
 	color: black;
 	background-color:#99FFFF; 
 }
+
 p 
-{
-	text-align: center; 
-	font-family: comic; 
+{ 
+	font-family: sans-serif; 
 	font-size: 150%;
 }
 	
-
-
 .center
 {
 	text-align: center;
@@ -66,29 +54,88 @@ p
 
 h2
 {
-	font-size: 14px;
-	line-height 
+	font-size: 200%;
+	text-align: center; 
 }
 
+h1
+{
+    font-family: impact;
+    background-color: #99ffcc;
+    color: blue;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 400%;
+}
 
 body 
 {
-
 	background: url('clouds.jpg') no-repeat center center;
 	background-properties="fixed"; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  font-family: sans-serif;
 }
 
 
 #NJSN
 {
-
 	width: 200px;
 	display: block;
 	margin: 0 auto;
+}
 
+#quote
+{
+    border: 1px;
+    float: left;
+    background-color: white;
+    width: 50%;
+    margin: 50px;
+    border: solid 2px;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 10px;
+    text-align: left;
+}
+
+#video
+{
+    float: left;
+    margin-left: 10px;
+}
+
+#section
+{
+    clear: both;
+}
+
+#process
+{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#butterfly
+{
+    padding-left: 100px;
+    position: absolute;
+}
+
+#moreinfo p 
+{
+    text-align: center;
+}
+
+#howwork
+{
+    padding-bottom: 50px;
+}
+
+footer p 
+{
+    text-align: center;
 }
