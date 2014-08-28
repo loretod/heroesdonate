@@ -8,9 +8,13 @@
 
 h1
 {
-    font-size: 200%;
+    font-size: 36px;
 }
 
+h2
+{
+    font-size: 100%;
+}
 #NJSN
 {
     width: 200px;
@@ -21,13 +25,15 @@ h1
 #quote
 {
     width: 80%;
+    position: center;
+    font-size: 14px;
 }
 
 
 #video
-{
-    margin-left: 30px;
+{  
     width: 80%;
+    position: center;
 }
 
 #butterfly
@@ -39,4 +45,9 @@ h1
 {
     margin: 0 auto;
     margin-top: 10px;
+}
+
+#process p 
+{
+    font-size: 14px;
 }
