@@ -30,8 +30,13 @@ h1
     width: 80%;
 }
 
-
 #butterfly
 {
     display: none;
+}
+
+#donate, #accept, #grieve
+{
+    margin: 0 auto;
+    margin-top: 10px;
 }
